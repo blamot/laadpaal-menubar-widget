@@ -1,9 +1,7 @@
-# laadpaal-menubar-widget
 A MacOs menubar widget that checks availability of a public car charger
 =======
-# Laadpaal status tools
 
-This repo contain one tool for checking the Equans charging location:
+This repo contain one tool for checking a Equans charging location.
 
 - `menubar_app/`: Native macOS menubar app (Swift) that polls the Grid API
 
@@ -31,4 +29,3 @@ Notes:
 - Notifications only work when the app is packaged as a `.app` bundle.
 - The menubar app uses the endpoint:
   `https://api.grid.com/charging/ChargingStations/location/{locationId}`
-
