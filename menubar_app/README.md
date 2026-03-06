@@ -16,6 +16,17 @@ The app launches as a menu bar item. Open **Settings…** from the menu to set:
 - Location ID (default 674202)
 - Update interval in seconds (default 900)
 
+## Build a double-clickable .app bundle
+
+```
+cd menubar_app
+./make_app.sh
+open LaadpaalMenubar.app
+```
+
+This creates `LaadpaalMenubar.app` in the `menubar_app` folder. You can move it
+to `/Applications` if you want it installed system-wide.
+
 Extras:
 
 - Uses a menubar icon instead of text

@@ -1,0 +1,16 @@
+.DS_Store
+.venv/
+.cache.json
+__pycache__/
+*.pyc
+
+# Python local config
+laadpaal_checker/config.json
+
+# SwiftPM build artifacts
+menubar_app/.build/
+
+# Xcode
+*.xcuserdata/
+*.xcodeproj
+*.xcworkspace

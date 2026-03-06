@@ -1,0 +1,11 @@
+{
+  "cache_ttl_seconds": 60,
+  "connectors": {
+    "SGHZ2-08068": "location:674202"
+  },
+  "source": {
+    "type": "grid",
+    "subscription_key": "SET-ME",
+    "base_url": "https://api.grid.com/charging/ChargingStations/location/674202"
+  }
+}
